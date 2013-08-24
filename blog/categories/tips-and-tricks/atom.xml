@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tips &amp; Tricks | Rishabh&rsquo;s Blog]]></title>
+  <link href="http://rishabhsrao.github.io/blog/categories/tips-and-tricks/atom.xml" rel="self"/>
+  <link href="http://rishabhsrao.github.io/"/>
+  <updated>2013-08-24T20:48:38+05:30</updated>
+  <id>http://rishabhsrao.github.io/</id>
+  <author>
+    <name><![CDATA[Rishabh Rao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mounting an ISO image]]></title>
+    <link href="http://rishabhsrao.github.io/blog/2012/09/20/mounting-an-iso-image/"/>
+    <updated>2012-09-20T01:14:17+05:30</updated>
+    <id>http://rishabhsrao.github.io/blog/2012/09/20/mounting-an-iso-image</id>
+    <content type="html"><![CDATA[<p>Mounting an ISO image as a drive is simple:</p>
+
+<pre><code>mkdir &lt;strong&gt;&lt;path-to-where-you-want-to-mount&gt;&lt;/strong&gt;
+sudo mount -o loop &lt;strong&gt;&lt;your-image.iso&gt;&lt;/strong&gt; &lt;strong&gt;&lt;path-to-where-you-want-to-mount&gt;&lt;/strong&gt;
+</code></pre>
+
+<p>That&rsquo;s it! Your ISO image will now be mounted and available at the above path.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OpenGraph og:image:url relative vs. absolute URLs]]></title>
+    <link href="http://rishabhsrao.github.io/blog/2012/07/16/opengraph-ogimageurl-relative-vs-absolute-urls/"/>
+    <updated>2012-07-16T02:26:11+05:30</updated>
+    <id>http://rishabhsrao.github.io/blog/2012/07/16/opengraph-ogimageurl-relative-vs-absolute-urls</id>
+    <content type="html"><![CDATA[<p>I was creating an event page for <a href="http://youthforseva.org">Youth For Seva</a>&rsquo;s Annual Day &lsquo;12 at <a href="http://rishabhsrao.github.com/yfs-ad-2012/publish/index.html">http://rishabhsrao.github.com/yfs-ad-2012/publish/index.html</a> and ran into a problem with <a href="https://developers.facebook.com/docs/opengraph">Facebook</a>&rsquo;s <a href="http://ogp.me">OpenGraph</a>'s og:image:url <a href="http://en.wikipedia.org/wiki/Meta_element">meta tag</a>. It appears that it can&rsquo;t take relative <a href="http://en.wikipedia.org/wiki/Uniform_Resource_Locator">URLs</a>. Bummer! Others have also asked about it <a href="http://stackoverflow.com/questions/9858577/open-graph-can-resolve-relative-url">here</a> and <a href="https://groups.google.com/forum/?fromgroups#!topic/open-graph-protocol/GKfaDWUVwaw">here</a>. It has to be absolute. I&rsquo;m gonna try giving a relative URL for now &ndash; no choice. Hope it gets implemented in the future.</p>
+
+<p>P.S.: <a href="http://developers.facebook.com/tools/lint">Facebook Like Linter Tool</a> said:</p>
+
+<blockquote><p><strong>Object Invalid Value</strong>: Object at URL &lsquo;<a href="http://rishabhsrao.github.com/yfs-ad-2012/publish/index.html">http://rishabhsrao.github.com/yfs-ad-2012/publish/index.html</a>&rsquo; of type &lsquo;profile&rsquo; is invalid because the given value &lsquo;img/yfs-logo-only-120.png&rsquo; for property &lsquo;og:image:url&rsquo; could not be parsed as type &lsquo;url&rsquo;.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2: Snippet for new RequireJS module]]></title>
+    <link href="http://rishabhsrao.github.io/blog/2012/07/14/sublime-text-2-snippet-for-new-requirejs-module/"/>
+    <updated>2012-07-14T15:25:37+05:30</updated>
+    <id>http://rishabhsrao.github.io/blog/2012/07/14/sublime-text-2-snippet-for-new-requirejs-module</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s a small Sublime Text 2 snippet for creating a new RequireJS module:</p>
+
+<p><div><script src='https://gist.github.com/3109219.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[{less} CSS empty file import issue]]></title>
+    <link href="http://rishabhsrao.github.io/blog/2012/07/11/less-css-empty-file-import-issue/"/>
+    <updated>2012-07-11T02:31:08+05:30</updated>
+    <id>http://rishabhsrao.github.io/blog/2012/07/11/less-css-empty-file-import-issue</id>
+    <content type="html"><![CDATA[<p>Looks like <a href="lesscss.org">{less} CSS</a> silently fails when you try to import an empty .less file. The issue is documented here: <a href="https://github.com/cloudhead/less.js/issues/853">https://github.com/cloudhead/less.js/issues/853</a>.</p>
+
+<p>A workaround is to declare a dummy variable or something inside the empty .less file.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[KDE4: Color Scheme: Vevlet Touch]]></title>
+    <link href="http://rishabhsrao.github.io/blog/2012/07/08/kde4-color-scheme-vevlet-touch/"/>
+    <updated>2012-07-08T01:06:28+05:30</updated>
+    <id>http://rishabhsrao.github.io/blog/2012/07/08/kde4-color-scheme-vevlet-touch</id>
+    <content type="html"><![CDATA[<p>Velvet Touch is my first KDE4 Color Scheme built on top of Obsidian Coast. Download it at <a href="http://kde-look.org/content/show.php?content=144282">http://kde-look.org/content/show.php?content=144282</a>.</p>
+
+<p>[caption id=&ldquo;&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;691&rdquo;]<a href="http://kde-look.org/content/show.php?content=144282"><img src="http://kde-look.org/CONTENT/content-pre1/144282-1.png" alt="A screenshot of the Velvet Touch color scheme for KDE." /></a> Velvet Touch &ndash; a velvet color scheme for KDE.[/caption]</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Similar Artist Finder - Rishabh&rsquo;s Blog</title>
+  <meta name="author" content="Rishabh Rao">
+
+  
+  <meta name="description" content="[caption id=&ldquo;&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;225&rdquo; caption=&ldquo;The Similar Artist Finder Application&rdquo;][/ &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rishabhsrao.github.io/blog/2010/08/18/similar-artist-finder">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Rishabh&rsquo;s Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29339243-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Rishabh&rsquo;s Blog</a></h1>
+  
+    <h2>Front-end web developer. Obsessed with JavaScript. Open Web supporter. Gamer. Geek. openSUSE and 24 fan.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rishabhsrao.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Similar Artist Finder</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-08-18T01:08:02+05:30" pubdate data-updated="true">Aug 18<span>th</span>, 2010</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>[caption id=&ldquo;&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;225&rdquo; caption=&ldquo;The Similar Artist Finder Application&rdquo;]<a href="http://kenai.com/downloads/similarartistfinder/SimilarArtistFinder.html"><img src="http://kenai.com/downloads/similarartistfinder/res/saf.jpeg" alt="Similar Artist Finder Logo" /></a>[/caption]</p>
+
+<p>Have you ever wanted to expand your taste in music? I mean, say you like Taylor Swift (I do!) and wanted to find out about more artists, who are similar to Taylor Swift. This is where my newest web mashup application comes in &ndash; Similar Artist Finder!</p>
+
+<p>To have a look at my application, just pay a visit to <a href="http://kenai.com/downloads/similarartistfinder/SimilarArtistFinder.html">Similar Artist Finder on Kenai.com</a>. The Kenai servers are slightly slow, so you might have to wait for a while until the page loads.</p>
+
+<p>What the application does is very simple. Think of it like a conversation between you and my application:</p>
+
+<p><strong>App:</strong> Hi! Who is your favorite artist?</p>
+
+<p><strong>You:</strong> Oh, it’s Taylor Swift; I absolutely love her!</p>
+
+<p><strong>App:</strong> Great! Hey, you know what, you may also like Gloriana, Carrie Underwood,
+Kellie Pickler, Colbie Caillat and Lady Antebellum! Enjoy!</p>
+
+<p><strong>You:</strong> Wow, I didn’t know about those artists! I’ll start listening to their
+songs too! That way, I can expand my taste in music! Thank you so much!
+That’s an awesome app!</p>
+
+<p><strong>Me:</strong> You’re welcome and thank you too!</p>
+
+<p>If you&rsquo;re wondering what technologies I&rsquo;ve used to make my mashup, then here&rsquo;s the list:</p>
+
+<ul>
+<li><p><a href="http://www.last.fm">Last.fm</a></p>
+
+<ul>
+<li>The world&rsquo;s largest online music catalogue, powered by your scrobbles. Free internet radio, videos, photos, stats, charts, biographies and concerts.</li>
+</ul>
+</li>
+<li><p><a href="http://developer.yahoo.com/yql">YQL</a></p>
+
+<ul>
+<li>The Yahoo Query Language or YQL platform provides a single endpoint service that enables developers to query, filter and combine data across Yahoo! and beyond.</li>
+</ul>
+</li>
+<li><p><a href="http://pipes.yahoo.com">Yahoo! Pipes</a></p>
+
+<ul>
+<li>Yahoo! Pipes is an interactive feed aggregator and manipulator.</li>
+</ul>
+</li>
+<li><p><a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></p>
+
+<ul>
+<li>JavaScript is an object-oriented scripting language used to enable programmatic access to objects within both the client application and other applications.</li>
+</ul>
+</li>
+<li><p><a href="http://en.wikipedia.org/wiki/HTML">HTML</a></p>
+
+<ul>
+<li>HTML, which stands for HyperText Markup Language, is the predominant markup language for web pages.</li>
+</ul>
+</li>
+<li><p><a href="http://jquery.com">jQuery</a></p>
+
+<ul>
+<li>jQuery is a lightweight cross-browser JavaScript library that emphasizes interaction between JavaScript and HTML. It was released in January 2006 at BarCamp NYC by John Resig. Used by over 27% of the 10,000 most visited websites, jQuery is the most popular JavaScript library in use today.</li>
+</ul>
+</li>
+<li><p><a href="http://jqueryui.com">jQuery UI</a></p>
+
+<ul>
+<li>jQuery UI is a library of components for the jQuery framework that add a set of plug-ins, widgets and visual effects for creating web applications.</li>
+</ul>
+</li>
+</ul>
+
+
+<p>I&rsquo;ll shortly be writing a step-by-step tutorial about how I built this application! So all my fellow newbie web developers can benefit!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Rishabh Rao</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-08-18T01:08:02+05:30" pubdate data-updated="true">Aug 18<span>th</span>, 2010</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/technical/'>Technical</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rishabhsrao.github.io/blog/2010/08/18/similar-artist-finder/" data-via="rishabhsrao" data-counturl="http://rishabhsrao.github.io/blog/2010/08/18/similar-artist-finder/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2010/06/08/links-to-my-event-blogs/" title="Previous Post: Links to My Event-Blogs">&laquo; Links to My Event-Blogs</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2010/08/18/how-to-turn-off-your-monitor-in-in-gnulinux/" title="Next Post: How to turn off your monitor in in GNU/Linux">How to turn off your monitor in in GNU/Linux &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/10/weather-fox/">WeatherFox</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/03/octo-found/">Octo-found: An Octopress Theme Based on Zurb Foundation</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/24/jquery-dot-beetooltip/">jQuery.beeTooltip</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/07/youth-for-seva-chiguru-2012-event-page/">Chiguru 2012</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/19/hello-octopress/">Hello Octopress</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/rishabhsrao">@rishabhsrao</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'rishabhsrao',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Rishabh Rao -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'rishabhsrao-github-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://rishabhsrao.github.io/blog/2010/08/18/similar-artist-finder/';
+        var disqus_url = 'http://rishabhsrao.github.io/blog/2010/08/18/similar-artist-finder/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

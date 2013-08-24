@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: non-technical | Rishabh&rsquo;s Blog]]></title>
+  <link href="http://rishabhsrao.github.io/blog/categories/non-technical/atom.xml" rel="self"/>
+  <link href="http://rishabhsrao.github.io/"/>
+  <updated>2013-08-24T20:48:38+05:30</updated>
+  <id>http://rishabhsrao.github.io/</id>
+  <author>
+    <name><![CDATA[Rishabh Rao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Chiguru 2012]]></title>
+    <link href="http://rishabhsrao.github.io/blog/2013/02/07/youth-for-seva-chiguru-2012-event-page/"/>
+    <updated>2013-02-07T22:55:00+05:30</updated>
+    <id>http://rishabhsrao.github.io/blog/2013/02/07/youth-for-seva-chiguru-2012-event-page</id>
+    <content type="html"><![CDATA[<p>A few months ago, I created an event page for <a href="http://youthforseva.org">Youth for Seva</a>&rsquo;s annual event &ndash; Chiguru 2012.
+It&rsquo;s hosted on their site at: <a href="http://youthforseva.org/chiguru-2012">youthforseva.org/chiguru-2012</a> and also on <a href="http://rishabhsrao.github.com/yfs-chiguru-2012">Github pages</a>.
+The source code is in my <a href="https://github.com/rishabhsrao/yfs-chiguru-2012">Github repo</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

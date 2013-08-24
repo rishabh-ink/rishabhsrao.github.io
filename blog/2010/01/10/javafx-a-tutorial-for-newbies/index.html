@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>JavaFX: A Tutorial for Newbies! - Rishabh&rsquo;s Blog</title>
+  <meta name="author" content="Rishabh Rao">
+
+  
+  <meta name="description" content="After learning JavaFX for a few days, I decided to create my first JavaFX application! It&rsquo;s called Open-Source Jumble and I&rsquo;m happy to &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rishabhsrao.github.io/blog/2010/01/10/javafx-a-tutorial-for-newbies">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Rishabh&rsquo;s Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29339243-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Rishabh&rsquo;s Blog</a></h1>
+  
+    <h2>Front-end web developer. Obsessed with JavaScript. Open Web supporter. Gamer. Geek. openSUSE and 24 fan.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rishabhsrao.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">JavaFX: A Tutorial for Newbies!</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-10T23:12:00+05:30" pubdate data-updated="true">Jan 10<span>th</span>, 2010</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>After learning JavaFX for a few days, I decided to create my first JavaFX application! It&rsquo;s called Open-Source Jumble and I&rsquo;m happy to say that it&rsquo;s up to the coveted version 1.0.0 now! Here is a screen shot of my application:</p>
+
+<p><a href="http://rishabhsrao.files.wordpress.com/2010/01/jumble_app_snapshot1.jpeg"><img src="http://rishabhsrao.files.wordpress.com/2010/01/jumble_app_snapshot1.jpeg?w=175" alt="" /></a>
+For all you curious readers out there, the font used for the title is <a href="http://www.kde-look.org/content/show.php/Letras+Locas?content=116231">Letras Locas</a> available at <a href="http://www.kde-look.org/">KDE-Look.org</a> and for all you curious folks reading this, I&rsquo;m running <a href="http://www.opensuse.org/">openSUSE</a> 11.2 (<a href="http://www.kde.org/">KDE</a>) with the <a href="http://www.kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158">Aurorae theme engine</a>! The window decoration theme is <a href="http://www.kde-look.org/content/show.php/Kant2+Aurorae?content=115339">Kant2</a>.</p>
+
+<p>Read more about this application in my other blog at <a href="http://osum.sun.com/profiles/blogs/jumble-javafx-style">http://osum.sun.com/profiles/blogs/jumble-javafx-style</a>!</p>
+
+<p>So, now in the spirit of open-source, I&rsquo;m going to teach you the basics of JavaFX in a simple, easy to follow, step-by-step tutorial. We&rsquo;ll start with a simple &ldquo;Hello World&rdquo; application and then gradually move on to more advanced stuff.</p>
+
+<p>So, here we go! I&rsquo;ll write this blog as a conversation between you and me!</p>
+
+<p>You: Wow, your application looks good! Can I too develop such applications? But I don&rsquo;t know anything about JavaFX! :(
+Me: Thank you! Yes, sure you can! Don&rsquo;t worry, you&rsquo;re in the right place! :)</p>
+
+<p>You:  Okay, so what is JavaFX?
+Me: JavaFX is a new Rich <strong>I</strong>nternet Application (RIA) development platform, created by Sun Microsystems, where you can create visually attractive applications easily.</p>
+
+<p>You: Oh, I see. Where is the JavaFX website located?
+Me: Please see <a href="http://javafx.com/">http://javafx.com/</a> and  <a href="http://javafx.com/docs/gettingstarted/javafx/">http://javafx.com/docs/gettingstarted/javafx/</a> will answer you previous question more precisely.</p>
+
+<p>You: What all can I do with JavaFX?
+Me: JavaFX is a very powerful platform. Check out <a href="http://javafx.com/samples/">http://javafx.com/samples/</a> to see some amazing applications developed in JavaFX!</p>
+
+<p>You: Cool! Those sample applications are awesome! I too wanna learn JavaFX!
+Me: Yes, they&rsquo;re are indeed awesome! They were developed using JavaFX. So, shall we start then?</p>
+
+<p>You: You bet! What do I do first?
+Me: The easiest way to start off JavaFX is to use an IDE (Integrated Development Environment) like <a href="http://netbeans.org/">NetBeans</a>! Get NetBeans version 6.8 or later: JavaFX at the <a href="http://netbeans.org/downloads/index.html">NetBeans IDE Download</a> page. Click on the Download button under the JavaFX column. It&rsquo;s 78MB, so use a download manager. If you have a slow internet connection, consider requesting a CD/DVD from your institution&rsquo;s <a href="http://osum.sun.com/">Sun OSUM</a> club. Or ask one of your friends, who has broadband internet, to download it for you.</p>
+
+<p>After downloading, read <a href="http://netbeans.org/community/releases/68/install.html">NetB</a><a href="http://netbeans.org/community/releases/68/install.html">eans 6.8 IDE Installation Instructions</a> and install it on your computer. Before you install, please note that you need to have the latest Java SE Development Kit (JDK) installed on your system. Visit <a href="http://java.sun.com/javase/downloads">http://java.sun.com/javase/downloads</a> for more information. Also, be sure to enable the Features On Demand feature while installing. It&rsquo;ll make the IDE start up faster.</p>
+
+<p>You: Hey I installed NetBeans! How do I start creating applications?
+Me: Start the NetBeans IDE. After it finishes loading the required modules, you&rsquo;ll see the NetBeans Start Page. Explore the Start Page, if you like to learn more about NetBeans.</p>
+
+<p>Follow the steps below:
+1. Click File >> New Project&hellip;
+2. Under the Choose Project >> Categories
+3. Now, under the Projects pane, click on JavaFX Script Application and click Next >
+You&rsquo;ll see a window like this:</p>
+
+<p><a href="http://rishabhsrao.files.wordpress.com/2010/01/newproject2.jpeg"><img src="http://rishabhsrao.files.wordpress.com/2010/01/newproject2.jpeg?w=300" alt="" /></a>
+4. Give the Project Name as &ldquo;HelloJavaFX&rdquo; (or any other name you like!)
+5. Be sure the Set as Main Project and Create Main File: [hellojavafx.Main] check-boxes are checked
+6. Click Finish</p>
+
+<p>and you&rsquo;re done!</p>
+
+<p>You: Alright! I did that!
+Me: Good! As you can see, NetBeans has set up everything for you. It has even created a small JavaFX application template. You have a minimal, but complete JavaFX application in front of you. If you&rsquo;d like to run it and see now, simply click the Run button (it looks like a green play button found on media players!) above.</p>
+
+<p>NetBeans will build the application and you&rsquo;ll see a new window titled Application title on your screen. There&rsquo;s also Application content written inside!</p>
+
+<p>All JavaFX files end with a .fx extension, like your Main.fx file.</p>
+
+<p>You can change the window title by changing the title of your Stage object literal. You can also modify the text inside the window by modifying the content of the Scene object literal.</p>
+
+<p>There you have it, your first, simple &ldquo;Hello World&rdquo; JavaFX application!</p>
+
+<p>I&rsquo;ll write more tutorials about JavaFX in the coming future! So, Follow me for more!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Rishabh Rao</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-10T23:12:00+05:30" pubdate data-updated="true">Jan 10<span>th</span>, 2010</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/tutorial/'>Tutorial</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rishabhsrao.github.io/blog/2010/01/10/javafx-a-tutorial-for-newbies/" data-via="rishabhsrao" data-counturl="http://rishabhsrao.github.io/blog/2010/01/10/javafx-a-tutorial-for-newbies/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2010/04/03/putty-for-symbian/" title="Next Post: PuTTY for Symbian">PuTTY for Symbian &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/10/weather-fox/">WeatherFox</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/03/octo-found/">Octo-found: An Octopress Theme Based on Zurb Foundation</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/24/jquery-dot-beetooltip/">jQuery.beeTooltip</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/07/youth-for-seva-chiguru-2012-event-page/">Chiguru 2012</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/19/hello-octopress/">Hello Octopress</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/rishabhsrao">@rishabhsrao</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'rishabhsrao',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Rishabh Rao -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'rishabhsrao-github-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://rishabhsrao.github.io/blog/2010/01/10/javafx-a-tutorial-for-newbies/';
+        var disqus_url = 'http://rishabhsrao.github.io/blog/2010/01/10/javafx-a-tutorial-for-newbies/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
