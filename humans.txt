@@ -1,0 +1,37 @@
+# humanstxt.org - We Are People, Not Machines.
+# The humans responsible & technology colophon
+
+# TEAM
+
+  * <name> -- <role> -- <twitter>
+
+# THANKS
+
+  * <name>
+
+# TECHNOLOGY COLOPHON
+
+  * [Octopress](octopress.org)
+  * [HTML5 Boilerplate](http://html5boilerplate.com)
+  * [normalize.css](necolas.github.io/normalize.css)
+
+# SITE
+
+  Last updated:
+
+# ARTWORK
+
+                ,o
+              :o
+              `:o
+                \o
+                 \o
+                  ;o
+                  ;o
+  octo-tentacles  ;o A bare-bones starter theme for Octopress.
+                  /o github.com/rishabhsrao/octo-tentacles
+                 /o
+               ,o:
+,           .o;o'
+o;o,,,,,;o;o;''
+    'o'o'o''
