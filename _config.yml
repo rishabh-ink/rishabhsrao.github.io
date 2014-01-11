@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+title: Rishabh&rsquo;s Blog
+description: Hi, I&rsquo;m Rishabh, a developer from Bangalore, India. I dabble with code and write about it on my blog here.
+author: Rishabh Rao
+url: http://rishabhsrao.github.io
 markdown: redcarpet
 pygments: true
