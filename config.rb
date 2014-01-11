@@ -13,16 +13,16 @@ encoding = "utf-8"
 # http_path = ''
 
 # The directory where the css stylesheets are kept. It is relative to the project_path. Defaults to "stylesheets".  (String)
-# css_dir = ''
+css_dir = 'css'
 
 # The directory where the sass stylesheets are kept. It is relative to the project_path. Defaults to "sass".  (String)
-# sass_dir = ''
+sass_dir = 'css'
 
 # The directory where the images are kept. It is relative to the project_path. Defaults to "images".  (String)
-# images_dir = ''
+images_dir = 'img'
 
 # The directory where the javascripts are kept. It is relative to the project_path. Defaults to "javascripts".  (String)
-# javascripts_dir = ''
+javascripts_dir = 'js'
 
 # The output style for the compiled css. One of: :nested, :expanded, :compact, or :compressed.  (Symbol)
 output_style = :expanded
