@@ -5,3 +5,11 @@
  */
 @import "vars";
 @import "../lib/inuit.css/inuit";
+
+/**
+ * UI components
+ */
+ @import "ui/container";
+ @import "ui/page";
+ @import "ui/header";
+ @import "ui/footer";
