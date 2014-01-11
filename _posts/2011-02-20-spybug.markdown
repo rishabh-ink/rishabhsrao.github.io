@@ -1,0 +1,115 @@
+---
+comments: true
+date: 2011-02-20 00:17:10
+layout: post
+slug: spybug
+title: SpyBug
+wordpress_id: 164
+categories:
+- Technical
+tags:
+- alert
+- console
+- debug
+- debugging
+- developer
+- error
+- explorer
+- firebug
+- firefox
+- framework
+- info
+- internet
+- javascript
+- log
+- spybug
+- tools
+- warn
+---
+
+SpyBug - a simple framework for logging and debugging using the browser's native console. [Get it from github!](https://github.com/rishabhsrao/SpyBug)
+
+
+### Hey, what is SpyBug?
+
+
+SpyBug is a simple framework for logging and debugging using the browser's native console.
+
+
+### Uh okay, How will it help me?
+
+
+Well, if you're developing with JavaScript, then it is most likely  that you'll need to debug your scripts. You can either use a lot of `alert` methods or use the console to dump your debug output. SpyBug helps you in the latter case. Instead of you using the raw `console.log` method, you can add a layer of SpyBug. SpyBug adds an abstraction layer  for you and makes it convenient to log messages to the console.
+
+
+### What do I need to use SpyBug?
+
+
+Well, you need web browser that has a console!
+If you're working with the latest version of Mozilla Firefox, then the add-on, Firebug, is required. You can get Firebug at [http://getfirebug.com](http://getfirebug.com/).
+If you're using Internet Explorer 8+ however, you just need to open up  the Developer Tools window and go to the Script tab and click on the  Console tab.
+For other browsers, please refer that browser's documentation/user-manual/help-page to find out about the console.
+I think Google Chrome has an in-built console. Just Google for it! I don't use Chrome, so I don't know much about it.
+For all you Apple fans, I think Safari too has an in-built console.
+
+
+### Wow, SpyBug sounds great! How do I use it?
+
+
+Using SpyBug is very easy! Here's how:
+1. Download SpyBug.min.1.0.0.js.
+2. In your HTML file, include this line in the `head` section:
+`<script type="text/javascript" src="SpyBug.min.1.0.0.js">
+</script>`
+3. Create the SpyBug object. You'll be using this object to log your messages to the console:
+`var spybug = new SpyBug();`
+
+That's it! Now, to log messages to your browser console, just say:
+`spybug.spy("My first SpyBug log message!", spybug.INFO);`
+
+Your console should now show the current date and time along with the above message!
+
+
+### Excellent! Thanks! Hey, what's that `spybug.INFO` thingy?
+
+
+Thank you! Oh that: it's a type of log message you wish to log to the console. These are the types that SpyBug supports:
+`INFO` (`console.info`) A message containing status information, which is usually displayed with a round, blue exclamation icon.
+`DEBUG` (`console.debug`) A debug message which is used for temporarily displaying log messages.
+Note: This may not be compatible with Internet Explorer.
+`WARN` (`console.warn`) A warning message, which is usually displayed with a triangular, yellow exclamation icon.
+`ERROR` (`console.error`) An error message which is usually displayed with a round, red X icon.
+`LOG` (`console.log`) A simple log message. This is the default log message.
+
+
+### Sweet! But what if I wish to disable logging...
+
+
+That's possible too! Just say:
+`spybug.setLoggingStatus(false);`
+
+That'll make SpyBug ignore all the subsequent messages that you try to log using SpyBug.
+
+
+### Oh okay! Do you mind telling me how to enable logging again?!
+
+
+Oh right, sorry, I forgot! Once again, just say:
+`spybug.setLoggingStatus(true);`
+
+That'll make SpyBug stop ignoring your messages and start logging again!
+
+
+### Just one more thing: how do I know if logging is enabled or not?
+
+
+Yeah, you can find that out by simply saying:
+`spybug.getLoggingStatus();`
+
+It'll return either `true` or `false`; depending on whether logging is enabled or disabled.
+
+
+### Do you, like, have a demo page or something where I can see SpyBug in action and play around with the code?
+
+
+Yeah, there is a demo page showcasing the capabilities of SpyBug. It's called `SpyBug Demo.html` and you can find it in the [SpyBug repository on github](https://github.com/rishabhsrao/SpyBug).

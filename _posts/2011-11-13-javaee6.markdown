@@ -1,0 +1,30 @@
+---
+comments: true
+date: 2011-11-13 09:57:00
+layout: post
+slug: javaee6
+title: Java EE 6
+wordpress_id: 255
+tags:
+- ejb
+- glassfish
+- java
+- java ee 6
+- javaone
+- jquery
+- jQuery UI
+- jsf
+- primefaces
+---
+
+Back in May 2011, I saw a lot of Java EE 6 at JavaOne, Hyderabad at tech talks and a hands-on lab by [Arun Gupta](http://www.java.net/blogs/arungupta/). So a couple of weeks back (i.e. in October 2011) I thought of giving Java EE 6 a try and I must say that Java EE 6 is amazing. Developing enterprise beans, working with web services, creating rich user interfaces etc. is a breeze.
+
+
+
+
+To get started with Java EE 6, I'd recommend [Antonio Goncalves](http://www.antoniogoncalves.org/xwiki/bin/view/Main/AboutMe) - [Beginning Java EE 6 Platform with Glassfish 3](http://www.apress.com/9781430228899) from [Apress](http://www.apress.com/). It's a great book for beginners. The author explains the concepts clearly and in an easy-to-understand manner. For more advanced learning, there is always the [Java EE 6 tutorial](http://download.oracle.com/javaee/6/tutorial/doc/).
+
+
+
+
+For building rich user interfaces using JSF 2.0, [PrimeFaces](http://www.primefaces.org/) is a good component suite as it builds on top of [jQuery](http://jquery.com) and [jQuery UI](http://jqueryui.com).
