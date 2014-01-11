@@ -1,7 +1,7 @@
-My Blog
--------
+Rishabh Rao &mdash; Blog
+========================
 
-# Introduction
+## Introduction
 
 This repository houses the source code for my blog, [rishabhsrao.github.io](http://rishabhsrao.github.io). It uses the following tools/frameworks&hellip;
 
@@ -10,13 +10,16 @@ This repository houses the source code for my blog, [rishabhsrao.github.io](http
 * Inuit.css &mdash; [inuit.css](http://inuitcss.com) &mdash; Powerful, scalable, Sass-based, BEM, OOCSS framework.
 * Bower &mdash; [bower.io](http://bower.io) &mdash; A package manager for the web.
 
-# Setting up
+## Setting up
 
 To get started, just clone this repository and install all the dependencies in [`bower.json`](bower.json).
 
     $ git clone git@github.com:rishabhsrao/rishabhsrao.github.io.git
     $ bower install
 
----
 
-> All content on this site is licensed under the [MIT License](license.md).
+### License
+
+All content on this site is available under the [MIT License](license.md).
+
+---
