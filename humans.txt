@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Rishabh Rao [@rishabhsrao](https://twitter.com/jekyllrb)
+
+# THANKS
+
+    Jekyll [@jekyllrb](https://twitter.com/jekyllrb)
+
+# TECHNOLOGY COLOPHON
+
+    HTML, SCSS, JavaScript
+    Normalize.css, jQuery, Modernizr
+    Ruby, Jekyll
