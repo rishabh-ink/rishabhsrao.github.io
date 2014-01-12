@@ -2,7 +2,8 @@
   "name": "rishabhsrao.github.io",
   "version": "0.0.1",
   "dependencies": {
-    "inuit.css": "git@github.com:rishabhsrao/inuit.css.git#~5.0.0"
+    "inuit.css": "git@github.com:rishabhsrao/inuit.css.git#~5.0.0",
+    "csswizardry-grids": "git@github.com:csswizardry/csswizardry-grids.git#~2.2.0"
   },
   "devDependencies": {}
 }
