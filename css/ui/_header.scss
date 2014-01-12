@@ -1,0 +1,5 @@
+.header {
+  @extend .grid__item;
+  @extend .portable--one-whole;
+  @extend .desk--one-half;
+}
