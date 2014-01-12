@@ -1,10 +1,16 @@
 <header class="header">
-  <h1 class="header__title header__title--hidden">{{ site.title }}</h1>
-  <nav>
-    <ul class="header__menu">
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
+  <div class="title__wrapper">
+    <h1 class="title title--hidden">
+      <a class="title__link" href="/">{{ site.title }}</a>
+    </h1>
+  </div><!-- /div.title__wrapper --><!--
+
+  --><nav class="menu">
+    <a class="menu__trigger" href="javascript:;">&#9776; Menu</a>
+    <ul>
+      <li class="menu__item">Home</li>
+      <li class="menu__item">About</li>
+      <li class="menu__item">Contact</li>
     </ul>
-  </nav>
+  </nav><!-- /nav.menu -->
 </header>

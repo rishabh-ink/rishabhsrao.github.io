@@ -1,5 +1,9 @@
 .header {
+  @extend .grid;
+}
+
+.title__wrapper,
+.menu {
   @extend .grid__item;
-  @extend .portable--one-whole;
-  @extend .desk--one-half;
+  @extend .one-half;
 }
