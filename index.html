@@ -5,7 +5,7 @@ description: Welcome.
 excerpt: Welcome.
 ---
 
-<div class="page  page__home  grid__item one-whole">
+<div class="page  page__home">
   <ul class="posts">
     {% for post in site.posts %}
       <li class="posts__post"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
