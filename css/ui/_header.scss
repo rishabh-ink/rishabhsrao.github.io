@@ -1,9 +1,6 @@
 .header {
-  @extend .grid;
 }
 
 .title__wrapper,
 .menu {
-  @extend .grid__item;
-  @extend .one-half;
 }
