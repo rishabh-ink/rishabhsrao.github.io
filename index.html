@@ -8,7 +8,17 @@ excerpt: Welcome.
 <div class="page  page__home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li class="posts__post"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="posts__post">
+        <a class="post__panel" href="{{ post.url }}">
+        <h3 class="post__title">{{ post.title }}</h3>
+        <p class="post__timestamp">
+          <span class="timestamp__label">on</span> <span class="timestamp__datetime">{{ post.date | date_to_string }}</span>
+        </p>
+        <p class="post__excerpt">
+          {{ post.excerpt }}
+        </p>
+        </a>
+      </li>
     {% endfor %}
   </ul>
 </div>
