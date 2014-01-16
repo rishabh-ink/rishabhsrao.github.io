@@ -10,15 +10,15 @@ excerpt: Welcome.
     {% for post in site.posts %}
       <li class="posts__post">
         <a class="post__panel" href="{{ post.url }}">
-        <h3 class="post__title">{{ post.title }}</h3>
-        <p class="post__timestamp">
-          <span class="timestamp__label">on</span> <span class="timestamp__datetime">{{ post.date | date_to_string }}</span>
-        </p>
-        <p class="post__excerpt">
-          {{ post.excerpt }}
-        </p>
-        </a>
-      </li>
+          <h3 class="post__title">{{ post.title }}</h3>
+          <p class="post__timestamp">
+            <span class="timestamp__label">on</span> <span class="timestamp__datetime">{{ post.date | date_to_string }}</span>
+          </p>
+          <p class="post__excerpt">
+            {{ post.excerpt }}
+          </p>
+        </a> <!-- /.post__panel -->
+      </li> <!-- /.posts__post -->
     {% endfor %}
-  </ul>
-</div>
+  </ul> <!-- /.posts -->
+</div> <!-- /.page.page__home -->
