@@ -148,6 +148,13 @@
  * have been set to ‘true’.
  */
 /*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+/**
+ * Sky gradient
+ * Courtesy http://codepen.io/zessx/pen/rDEAl
+ */
+/*------------------------------------*\
     INUIT.CSS
 \*------------------------------------*/
 /*!*
@@ -4388,6 +4395,7 @@ label,
  */
 /* line 1, ui/_body.scss */
 body {
+  background: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -4409,4 +4417,11 @@ body {
 .posts__post {
   margin: 24px auto;
   padding: 24px;
+}
+
+/* line 14, ui/_posts.scss */
+.posts__post,
+.posts__post::after,
+.posts__post::before {
+  border: 1px solid #cccccc;
 }

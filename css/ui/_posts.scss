@@ -8,3 +8,9 @@
   margin: $base-spacing-unit auto;
   padding: $base-spacing-unit;
 }
+
+.posts__post,
+.posts__post::after,
+.posts__post::before, {
+  border: 1px solid $base-ui-color;
+}
