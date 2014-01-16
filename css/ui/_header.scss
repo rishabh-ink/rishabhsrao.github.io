@@ -1,6 +1,18 @@
 .header {
 }
 
-.title__wrapper,
+.title,
 .menu {
+  text-align: center;
+}
+
+.menu {
+  margin-left: 0;
+  list-style: none;
+}
+
+.menu__item {
+  display: inline;
+  margin-left: $base-spacing-unit;
+  margin-right: $base-spacing-unit;
 }

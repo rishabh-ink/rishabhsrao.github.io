@@ -4406,6 +4406,25 @@ body {
   max-width: 800px;
 }
 
+/* line 5, ui/_header.scss */
+.title,
+.menu {
+  text-align: center;
+}
+
+/* line 9, ui/_header.scss */
+.menu {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* line 14, ui/_header.scss */
+.menu__item {
+  display: inline;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 /* line 1, ui/_posts.scss */
 .posts {
   list-style: none;
