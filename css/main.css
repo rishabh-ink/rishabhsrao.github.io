@@ -4395,5 +4395,18 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 800px;
+}
+
+/* line 1, ui/_posts.scss */
+.posts {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 7, ui/_posts.scss */
+.posts__post {
+  margin: 24px auto;
+  padding: 24px;
 }
