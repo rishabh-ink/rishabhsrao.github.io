@@ -1,8 +1,5 @@
 .posts {
-  list-style: none;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
+  @extend %bare-list;
 }
 
 .posts__post {
