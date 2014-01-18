@@ -1,6 +1,9 @@
 .header {
   background-color: $header-bg-color;
   @include border-radius(1px);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .title,
@@ -14,7 +17,8 @@
 
   &:hover,
   &:active,
-  &:focus {
+  &:focus,
+  &:visited {
     color: inherit;
   }
 }
@@ -27,6 +31,6 @@
 
 .menu__item {
   display: inline;
-  // margin-left: $base-spacing-unit;
-  // margin-right: $base-spacing-unit;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }

@@ -1,2 +1,5 @@
-.page {
+.post {
+  background-color: $post-bg-color;
+  padding: $post-padding;
+  @include border-radius(1px);
 }

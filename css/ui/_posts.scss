@@ -6,24 +6,27 @@
 }
 
 .posts__post {
-  margin: 2rem 1rem;
+  margin-bottom: 1rem;
+  background-color: $post-bg-color;
 
-  @include border-radius(1px);
+  &:hover {
+    background-color: $post-bg-hover-color;
+  }
 }
 
 /*a*/.post__panel {
   color: inherit;
-  background-color: $post-bg-color;
 
   &:hover,
   &:focus,
-  &:active {
-    background-color: $post-bg-hover-color;
+  &:active,
+  &:visited {
+    color: inherit;
   }
 
   display: block;
   height: 100%;
-  padding: 1rem;
+  padding: $post-padding;
 
   text-decoration: none;
 }
