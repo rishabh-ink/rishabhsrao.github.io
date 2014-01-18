@@ -47,12 +47,11 @@
 }
 
 .title__heading,
-.nav__menu,
 .profile {
   text-align: center;
 }
 
-.menu__item, {
+.menu__item {
   display: inline;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -71,7 +70,6 @@
   font-style: italic;
 }
 
-/*ul*/.nav__menu,
 /*ul*/.social__menu {
   @extend %bare-list;
 }

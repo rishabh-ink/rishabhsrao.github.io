@@ -850,7 +850,6 @@ p + .drop-cap {
 }
 
 /* line 1, helper/_list.scss */
-.nav__menu,
 .social__menu, .posts {
   list-style: none;
   margin-left: 0;
@@ -960,21 +959,20 @@ a:active {
     display: initial;
   }
 }
-/* line 51, ui/_banner.scss */
+/* line 50, ui/_banner.scss */
 .title__heading,
-.nav__menu,
 .profile {
   text-align: center;
 }
 
-/* line 55, ui/_banner.scss */
+/* line 54, ui/_banner.scss */
 .menu__item {
   display: inline;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-/* line 61, ui/_banner.scss */
+/* line 60, ui/_banner.scss */
 .profile__picture {
   background-image: url("../apple-touch-icon-precomposed.png");
   background-repeat: no-repeat;
@@ -988,13 +986,13 @@ a:active {
   border-radius: 76px;
 }
 
-/* line 70, ui/_banner.scss */
+/* line 69, ui/_banner.scss */
 .profile__description {
   font-style: italic;
 }
 
 /*ul*/
-/* line 79, ui/_banner.scss */
+/* line 77, ui/_banner.scss */
 .social__menu__item a {
   width: 2rem;
   height: 2rem;
@@ -1006,17 +1004,17 @@ a:active {
   text-align: left;
 }
 
-/* line 88, ui/_banner.scss */
+/* line 86, ui/_banner.scss */
 .social__menu__item--twitter a {
   background-image: url(../img/social-media/twitter.svg);
 }
 
-/* line 92, ui/_banner.scss */
+/* line 90, ui/_banner.scss */
 .social__menu__item--github a {
   background-image: url(../img/social-media/github.svg);
 }
 
-/* line 96, ui/_banner.scss */
+/* line 94, ui/_banner.scss */
 .social__menu__item--facebook a {
   background-image: url(../img/social-media/facebook.svg);
 }
