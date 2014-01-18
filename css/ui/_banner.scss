@@ -22,7 +22,27 @@
   @extend .gamma;
 
   code {
-    opacity: .2;
+    opacity: .3;
+  }
+}
+
+.title__object {
+  display: none;
+
+  &::after {
+    content: ".";
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .title__object__window {
+    display: initial;
+  }
+}
+
+@media (min-width: $screen-xs) {
+  .title__object__console {
+    display: initial;
   }
 }
 
