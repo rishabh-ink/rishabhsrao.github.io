@@ -444,10 +444,11 @@ body {
 /* line 9, ui/_header.scss */
 .menu {
   margin-left: 0;
+  padding-left: 0;
   list-style: none;
 }
 
-/* line 14, ui/_header.scss */
+/* line 15, ui/_header.scss */
 .menu__item {
   display: inline;
 }
@@ -457,16 +458,17 @@ body {
   list-style: none;
   margin-left: 0;
   margin-right: 0;
+  padding-left: 0;
 }
 
-/* line 7, ui/_posts.scss */
+/* line 8, ui/_posts.scss */
 .posts__post {
   border-radius: 3px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 40px rgba(0, 0, 0, 0.05) inset;
 }
 
 /*a*/
-/* line 13, ui/_posts.scss */
+/* line 14, ui/_posts.scss */
 .post__panel {
   color: inherit;
   display: block;
