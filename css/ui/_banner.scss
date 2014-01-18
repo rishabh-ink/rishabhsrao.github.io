@@ -43,3 +43,24 @@
 /*ul*/.social__menu {
   @extend %bare-list;
 }
+
+.social__menu__item a {
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  @include hide-text();
+}
+
+.social__menu__item--twitter a {
+  background-image: url(../img/social-media/twitter.svg);
+}
+
+.social__menu__item--github a {
+  background-image: url(../img/social-media/github.svg);
+}
+
+.social__menu__item--facebook a {
+  background-image: url(../img/social-media/facebook.svg);
+}

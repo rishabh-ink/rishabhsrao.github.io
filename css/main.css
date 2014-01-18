@@ -939,6 +939,33 @@ a:active {
 }
 
 /*ul*/
+/* line 47, ui/_banner.scss */
+.social__menu__item a {
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+}
+
+/* line 56, ui/_banner.scss */
+.social__menu__item--twitter a {
+  background-image: url(../img/social-media/twitter.svg);
+}
+
+/* line 60, ui/_banner.scss */
+.social__menu__item--github a {
+  background-image: url(../img/social-media/github.svg);
+}
+
+/* line 64, ui/_banner.scss */
+.social__menu__item--facebook a {
+  background-image: url(../img/social-media/facebook.svg);
+}
+
 /* line 5, ui/_post.scss */
 .posts__post {
   margin-bottom: 1rem;
