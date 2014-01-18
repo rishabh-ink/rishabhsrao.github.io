@@ -4438,13 +4438,14 @@ body {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 40px rgba(0, 0, 0, 0.05) inset;
   border-radius: 3px;
   margin: 24px 12px;
-  padding: 24px;
   overflow: auto;
 }
 
 /*a*/
-/* line 19, ui/_posts.scss */
+/* line 18, ui/_posts.scss */
 .post__panel {
   color: inherit;
+  display: block;
+  padding: 24px;
   text-decoration: none;
 }
