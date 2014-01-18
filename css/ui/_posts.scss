@@ -8,11 +8,18 @@
 .posts__post {
   margin: 2rem 1rem;
 
-  @include paper;
+  @include border-radius(1px);
 }
 
 /*a*/.post__panel {
   color: inherit;
+  background-color: $post-bg-color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $post-bg-hover-color;
+  }
 
   display: block;
   height: 100%;
@@ -20,30 +27,3 @@
 
   text-decoration: none;
 }
-
-// @media (min-width: $desk-start) {
-//   .posts__post {
-//     @include transform(rotateZ(0) translateX(0) translateY(0));
-//   }
-
-//   .posts__post:hover {
-//     @include paper-shuffle;
-//     @include transition-property(transform);
-//     @include transition-duration(2s);
-//     @include transition-timing-function(ease-in);
-//   }
-
-//   .posts__post:hover::before,
-//   .posts__post:hover::after {
-//     @include paper;
-//     @include paper-shuffle-pseudo;
-//   }
-
-//   .posts__post:hover::before {
-//     @include paper-shuffle-negative;
-//   }
-
-//   .posts__post:hover::after {
-//     @include paper-shuffle-positive;
-//   }
-// }
