@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hello Jekyll!"
 date:   2014-01-11 08:59:59
 categories: jekyll update
 excerpt: Bye Octopress, welcome Jekyll!
