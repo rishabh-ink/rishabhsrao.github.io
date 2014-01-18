@@ -6,7 +6,7 @@
 }
 
 .posts__post {
-  // margin: (3 * $base-spacing-unit) $base-spacing-unit;
+  margin: 2rem 1rem;
 
   @include paper;
 }
@@ -15,7 +15,8 @@
   color: inherit;
 
   display: block;
-  // padding: $base-spacing-unit;
+  height: 100%;
+  padding: 1rem;
 
   text-decoration: none;
 }

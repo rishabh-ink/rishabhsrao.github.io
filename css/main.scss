@@ -3,6 +3,8 @@
  */
 @import "compass";
 @import "CSS:../lib/normalize-css/normalize";
+@import "config/vars-typeplate";
+@import "../lib/typeplate/scss/typeplate";
 
 /**
  * Helpers
@@ -11,9 +13,10 @@
 /**
  * UI components
  */
- @import "ui/body";
- @import "ui/container";
- @import "ui/page";
- @import "ui/header";
- @import "ui/footer";
- @import "ui/posts";
+@import "ui/html";
+@import "ui/body";
+@import "ui/container";
+@import "ui/page";
+@import "ui/header";
+@import "ui/footer";
+@import "ui/posts";
