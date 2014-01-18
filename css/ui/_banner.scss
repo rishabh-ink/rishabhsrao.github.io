@@ -18,8 +18,12 @@
   }
 }
 
-.title__heading code {
-  opacity: .2;
+.title__heading {
+  @extend .gamma;
+
+  code {
+    opacity: .2;
+  }
 }
 
 .title__heading,
