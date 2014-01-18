@@ -1,4 +1,4 @@
-.header {
+.banner {
   background-color: $header-bg-color;
   @include border-radius(1px);
   margin-top: 1rem;
@@ -6,7 +6,7 @@
   padding: 1rem;
 }
 
-.title,
+.title__heading,
 .menu {
   text-align: center;
 }
@@ -23,7 +23,7 @@
   }
 }
 
-.menu {
+.nav__menu {
   margin-left: 0;
   padding-left: 0;
   list-style: none;
