@@ -1,6 +1,9 @@
 # # Compass configuration
 # See http://compass-style.org/help/tutorials/configuration-reference
 
+# ## Compass plugins
+require "sass-css-importer"
+
 # ## Application configuration
 
 # The environment mode. Defaults to :production, can also be :development  (Symbol)
