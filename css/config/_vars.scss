@@ -1,11 +1,61 @@
+/*
+ * Base colors
+ */
 $base-text-color: #dedede;
 $base-bg-color: #222222;
+$base-theme-color: #3d5883;
 
+
+
+
+
+
+/*
+ * Heading colors
+ */
+$header-bg-color: $base-theme-color;
 $heading-color: #ededed;
 
-$post-bg-color: #333;
-$post-bg-hover-color: #444;
-$header-bg-color: #3498db;
 
+
+
+
+
+/*
+ * Post colors
+ */
+$post-bg-color: #333;
+$post-padding: 1rem;
+$post-bg-hover-color: #444;
+
+
+
+
+
+
+/*
+ * Link colors
+ */
 $link-color: #3498db;
-$link-active-color: lighten($link-color, 5%);
+$link-hover-color: lighten($link-color, 15%);
+$link-active-color: lighten($link-color, 20%);
+
+
+
+
+
+
+/*
+ * Media query widths
+ */
+// Mobile devices - Landscape (480px wide or 30rem wide)
+$screen-xs: 30rem;
+
+// Tablet devices - Portrait (768px wide or 48rem wide)
+$screen-sm: 48rem;
+
+// Tablet devices - Landscape (900px wide or 56.25rem wide)
+$screen-md: 56.25rem;
+
+// Desktop devices (1200px wide or 81.25rem wide)
+$screen-lg: 81.25rem;
