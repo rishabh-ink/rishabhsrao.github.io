@@ -18,6 +18,10 @@
   }
 }
 
+.title__heading code {
+  opacity: .2;
+}
+
 .title__heading,
 .nav__menu,
 .profile {
@@ -37,6 +41,10 @@
   height: 152px;
   margin: 1rem auto;
   @include border-radius(152px / 2);
+}
+
+.profile__description {
+  font-style: italic;
 }
 
 /*ul*/.nav__menu,

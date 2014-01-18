@@ -818,7 +818,7 @@ p + .drop-cap {
  * Helpers
  */
 @font-face {
-  font-family: 'fira_sans_otlight';
+  font-family: 'Fira Sans';
   src: url("../font/firasansot-light-webfont.eot");
   src: url("../font/firasansot-light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/firasansot-light-webfont.woff") format("woff"), url("../font/firasansot-light-webfont.ttf") format("truetype"), url("../font/firasansot-light-webfont.svg#fira_sans_otlight") format("svg");
   font-weight: normal;
@@ -826,7 +826,7 @@ p + .drop-cap {
 }
 
 @font-face {
-  font-family: 'fira_sans_otmedium';
+  font-family: 'Fira Sans';
   src: url("../font/firasansot-medium-webfont.eot");
   src: url("../font/firasansot-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../font/firasansot-medium-webfont.woff") format("woff"), url("../font/firasansot-medium-webfont.ttf") format("truetype"), url("../font/firasansot-medium-webfont.svg#fira_sans_otmedium") format("svg");
   font-weight: bold;
@@ -834,7 +834,7 @@ p + .drop-cap {
 }
 
 @font-face {
-  font-family: 'fira_sans_otlight_italic';
+  font-family: 'Fira Sans';
   src: url("../font/firasansot-lightitalic-webfont.eot");
   src: url("../font/firasansot-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/firasansot-lightitalic-webfont.woff") format("woff"), url("../font/firasansot-lightitalic-webfont.ttf") format("truetype"), url("../font/firasansot-lightitalic-webfont.svg#fira_sans_otlight_italic") format("svg");
   font-weight: normal;
@@ -842,7 +842,7 @@ p + .drop-cap {
 }
 
 @font-face {
-  font-family: 'fira_sans_otmedium_italic';
+  font-family: 'Fira Sans';
   src: url("../font/firasansot-mediumitalic-webfont.eot");
   src: url("../font/firasansot-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/firasansot-mediumitalic-webfont.woff") format("woff"), url("../font/firasansot-mediumitalic-webfont.ttf") format("truetype"), url("../font/firasansot-mediumitalic-webfont.svg#fira_sans_otmedium_italic") format("svg");
   font-weight: bold;
@@ -872,7 +872,7 @@ p + .drop-cap {
 body {
   background-color: #222222;
   color: #dedede;
-  font-family: fira_sans_otlight, sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 /* line 1, ui/_link.scss */
@@ -934,21 +934,26 @@ a:active {
   color: inherit;
 }
 
-/* line 23, ui/_banner.scss */
+/* line 21, ui/_banner.scss */
+.title__heading code {
+  opacity: .2;
+}
+
+/* line 27, ui/_banner.scss */
 .title__heading,
 .nav__menu,
 .profile {
   text-align: center;
 }
 
-/* line 27, ui/_banner.scss */
+/* line 31, ui/_banner.scss */
 .menu__item {
   display: inline;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-/* line 33, ui/_banner.scss */
+/* line 37, ui/_banner.scss */
 .profile__picture {
   background-image: url("../apple-touch-icon-precomposed.png");
   background-repeat: no-repeat;
@@ -962,8 +967,13 @@ a:active {
   border-radius: 76px;
 }
 
+/* line 46, ui/_banner.scss */
+.profile__description {
+  font-style: italic;
+}
+
 /*ul*/
-/* line 47, ui/_banner.scss */
+/* line 55, ui/_banner.scss */
 .social__menu__item a {
   width: 2rem;
   height: 2rem;
@@ -975,17 +985,17 @@ a:active {
   text-align: left;
 }
 
-/* line 56, ui/_banner.scss */
+/* line 64, ui/_banner.scss */
 .social__menu__item--twitter a {
   background-image: url(../img/social-media/twitter.svg);
 }
 
-/* line 60, ui/_banner.scss */
+/* line 68, ui/_banner.scss */
 .social__menu__item--github a {
   background-image: url(../img/social-media/github.svg);
 }
 
-/* line 64, ui/_banner.scss */
+/* line 72, ui/_banner.scss */
 .social__menu__item--facebook a {
   background-image: url(../img/social-media/facebook.svg);
 }
