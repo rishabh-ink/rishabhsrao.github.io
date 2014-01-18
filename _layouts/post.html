@@ -3,10 +3,12 @@ layout: default
 ---
 
 <div class="page  page__post">
-  <h2>{{ page.title }}</h2>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+  <div class="post">
+    <h2>{{ page.title }}</h2>
+    <p class="meta">{{ page.date | date_to_string }}</p>
 
-  <div class="content">
-    {{ content }}
-  </div>
-</div>
+    <div class="content">
+      {{ content }}
+    </div>  <!-- /.content -->
+  </div>  <!-- /.post -->
+</div> <!-- /.page.page__post -->
