@@ -67,10 +67,11 @@
 .profile__picture {
   background-image: url("../apple-touch-icon-precomposed.png");
   background-repeat: no-repeat;
-  width: 152px;
-  height: 152px;
+  background-size: contain;
+  width: 76px;
+  height: 76px;
   margin: 1rem auto;
-  @include border-radius(152px / 2);
+  @include border-radius(76px / 2);
 }
 
 .profile__description {
