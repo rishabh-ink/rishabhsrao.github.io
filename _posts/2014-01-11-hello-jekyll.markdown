@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Hello Jekyll!"
-date:   2014-01-11 08:59:59
+title: "Hello Jekyll!"
+date: 2014-01-11 08:59:59
+comments: true
 categories: tech
 excerpt: Bye Octopress, welcome Jekyll!
 ---
