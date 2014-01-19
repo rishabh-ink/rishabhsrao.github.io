@@ -8,6 +8,7 @@
 img {
   display: block;
   margin: 1rem auto;
+  max-width: 100%;
 }
 
 .thumbnails {
@@ -29,4 +30,18 @@ hr {
 
 .gist {
   text-shadow: none;
+}
+
+blockquote {
+  font-style: italic;
+  position: relative;
+
+  &::before {
+    content: "\201C";
+    @extend .tera;
+    opacity: .2;
+    position: absolute;
+    top: -2.5rem;
+    left: -1.5rem;
+  }
 }

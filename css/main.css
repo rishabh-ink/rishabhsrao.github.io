@@ -514,7 +514,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 578, ../lib/typeplate/scss/_typeplate.scss */
-.tera {
+.tera, blockquote::before {
   font-size: 117px;
   font-size: 6.5rem;
   margin-bottom: 0.25385rem;
@@ -1308,14 +1308,15 @@ a:active {
 img {
   display: block;
   margin: 1rem auto;
+  max-width: 100%;
 }
 
-/* line 14, ui/_page.scss */
+/* line 15, ui/_page.scss */
 .thumbnails img {
   display: inline-block;
 }
 
-/* line 19, ui/_page.scss */
+/* line 20, ui/_page.scss */
 code {
   background-color: #222222;
   color: #de935f;
@@ -1327,14 +1328,28 @@ code {
   padding: .5rem;
 }
 
-/* line 26, ui/_page.scss */
+/* line 27, ui/_page.scss */
 hr {
   border: 2px solid #222222;
 }
 
-/* line 30, ui/_page.scss */
+/* line 31, ui/_page.scss */
 .gist {
   text-shadow: none;
+}
+
+/* line 35, ui/_page.scss */
+blockquote {
+  font-style: italic;
+  position: relative;
+}
+/* line 39, ui/_page.scss */
+blockquote::before {
+  content: "\201C";
+  opacity: .2;
+  position: absolute;
+  top: -2.5rem;
+  left: -1.5rem;
 }
 
 /* line 1, ui/_banner.scss */
