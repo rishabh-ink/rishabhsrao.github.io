@@ -2,25 +2,9 @@
 comments: true
 date: 2012-07-05 11:29:25
 layout: post
-slug: cool-resources-for-css
-title: Cool resources for CSS
-wordpress_id: 206
-tags:
-- 1kbgrid
-- bootstrap
-- bourbon
-- css
-- css3
-- css3please
-- grid
-- less
-- lesselements
-- mixin
-- prefixr
-- s
-- sass
-- scss
-- twitter
+title: "Cool resources for CSS"
+excerpt: "Some helpful links for working with CSS."
+categories: notech
 ---
 
 I'm currently doing stuff with CSS these days at work and I thought of documenting my research here a bit.
@@ -38,3 +22,5 @@ If you're into CSS grids, then this lightweight grid will definitely appeal to y
 Well, that's about it for now. I'll add more stuff as I find out.
 
 Thanks for reading and hope this helps!
+
+---

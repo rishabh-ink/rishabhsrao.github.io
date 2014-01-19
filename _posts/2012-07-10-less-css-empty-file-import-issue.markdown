@@ -10,3 +10,5 @@ categories: tech
 Looks like [{less} CSS](lesscss.org) silently fails when you try to import an empty .less file. The issue is documented here: [https://github.com/cloudhead/less.js/issues/853](https://github.com/cloudhead/less.js/issues/853).
 
 A workaround is to declare a dummy variable or something inside the empty <code>.less</code> file.
+
+---

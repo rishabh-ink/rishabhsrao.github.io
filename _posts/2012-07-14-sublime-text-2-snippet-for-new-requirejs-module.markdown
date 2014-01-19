@@ -12,3 +12,5 @@ Here's a small Sublime Text 2 snippet for creating a new RequireJS module&hellip
 {% gist 3109219 %}
 
 It's tailored to my needs though so you might want to modify it.
+
+---

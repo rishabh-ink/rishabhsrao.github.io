@@ -2,17 +2,11 @@
 comments: true
 date: 2011-11-13 10:32:08
 layout: post
-slug: primefaces
-title: PrimeFaces is an open source JSF component library featuring 100+ rich set
-  of components.
-wordpress_id: 251
-post_format:
-- Link
-tags:
-- ejb
-- java ee 6
-- jsf
-- primefaces
+title: "PrimeFaces"
+excerpt: "An open source JSF component library featuring 100+ rich set of components."
+categories: tech
 ---
 
-[PrimeFaces](http://www.primefaces.org)
+PrimeFaces is an amazing JSF component library. Check it out at [PrimeFaces](http://www.primefaces.org).
+
+---

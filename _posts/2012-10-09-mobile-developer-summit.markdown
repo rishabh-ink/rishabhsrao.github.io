@@ -23,18 +23,4 @@ The next session is on HTML5 video by Scott Davis. I'm really excited to attend 
 
 So that's it for day one of the Mobile Developer Summit organized by saltmarch media. I'm off to grab the front row seat for Scott's talk! I'll leave you with some pictures of the event.
 
-
-
-[gallery]
-
-
-###### Related articles
-
-
-
-
-
-
-  * [Join IBM at the Mobile Developer Summit India, October 9-10, 2012](https://www.ibm.com/developerworks/mydeveloperworks/blogs/mobileblog/entry/join_ibm_at_the_mobile_developer_summit_india_october_9_10_201237) (ibm.com)
-
-
+---
