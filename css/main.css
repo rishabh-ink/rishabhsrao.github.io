@@ -1264,6 +1264,7 @@ body {
   background-color: #222222;
   color: #dedede;
   font-family: "Fira Sans", sans-serif;
+  text-shadow: 0 1px 2px #222222;
 }
 
 /* line 1, ui/_link.scss */
