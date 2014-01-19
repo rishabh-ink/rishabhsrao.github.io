@@ -549,14 +549,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 578, ../lib/typeplate/scss/_typeplate.scss */
-.gamma, h3, .post__title {
+.gamma, h3 {
   font-size: 36px;
   font-size: 2rem;
   margin-bottom: 0.825rem;
 }
 
 /* line 578, ../lib/typeplate/scss/_typeplate.scss */
-.delta, h4 {
+.delta, h4, .post__title {
   font-size: 24px;
   font-size: 1.33333rem;
   margin-bottom: 1.2375rem;
@@ -899,17 +899,6 @@ a:active {
   max-width: 800px;
 }
 
-/* line 1, ui/_page.scss */
-.post {
-  background-color: #333333;
-  padding: 1rem;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
-  border-radius: 1px;
-}
-
 /* line 1, ui/_banner.scss */
 .banner {
   background-color: #3d5883;
@@ -1027,17 +1016,35 @@ a:active {
 }
 
 /* line 5, ui/_post.scss */
-.posts__post {
+.post--single {
+  background-color: #333333;
+  padding: 1rem;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+  position: relative;
+}
+
+/* line 12, ui/_post.scss */
+.post--multiple {
   margin-bottom: 1rem;
   background-color: #333333;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+  position: relative;
 }
-/* line 9, ui/_post.scss */
-.posts__post:hover {
+/* line 17, ui/_post.scss */
+.post--multiple:hover {
   background-color: #444444;
 }
 
 /*a*/
-/* line 14, ui/_post.scss */
+/* line 24, ui/_post.scss */
 .post__panel {
   color: inherit;
   display: block;
@@ -1045,7 +1052,17 @@ a:active {
   padding: 1rem;
   text-decoration: none;
 }
-/* line 20, ui/_post.scss */
+/* line 30, ui/_post.scss */
 .post__panel:hover, .post__panel:focus, .post__panel:active, .post__panel:visited {
   color: inherit;
+}
+
+/* line 45, ui/_post.scss */
+.post__timestamp {
+  background-color: #3d5883;
+  font-size: 65%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .25rem;
 }
