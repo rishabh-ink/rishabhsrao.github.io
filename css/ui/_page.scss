@@ -4,3 +4,19 @@
   @include border-radius(1px);
   overflow: auto;
 }
+
+img {
+  display: block;
+  margin: 1rem auto;
+}
+
+code {
+  background-color: $base-bg-color;
+  color: #de935f;
+  @include border-radius(1px);
+  padding: .5rem;
+}
+
+hr {
+  border: 2px solid $base-bg-color;
+}
