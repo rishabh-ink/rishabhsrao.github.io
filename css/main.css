@@ -542,14 +542,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 578, ../lib/typeplate/scss/_typeplate.scss */
-.beta, h2 {
+.beta, h2, .title__heading {
   font-size: 48px;
   font-size: 2.66667rem;
   margin-bottom: 0.61875rem;
 }
 
 /* line 578, ../lib/typeplate/scss/_typeplate.scss */
-.gamma, h3, .title__heading {
+.gamma, h3, .post__title {
   font-size: 36px;
   font-size: 2rem;
   margin-bottom: 0.825rem;
@@ -1304,6 +1304,29 @@ a:active {
   overflow: auto;
 }
 
+/* line 8, ui/_page.scss */
+img {
+  display: block;
+  margin: 1rem auto;
+}
+
+/* line 13, ui/_page.scss */
+code {
+  background-color: #222222;
+  color: #de935f;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+  padding: .5rem;
+}
+
+/* line 20, ui/_page.scss */
+hr {
+  border: 2px solid #222222;
+}
+
 /* line 1, ui/_banner.scss */
 .banner {
   background-color: #3d5883;
@@ -1426,7 +1449,7 @@ a:active {
   margin-bottom: 0;
 }
 
-/* line 5, ui/_post.scss */
+/* line 9, ui/_post.scss */
 .post--single {
   background-color: #333333;
   padding: 1rem;
@@ -1438,7 +1461,7 @@ a:active {
   position: relative;
 }
 
-/* line 12, ui/_post.scss */
+/* line 16, ui/_post.scss */
 .post--multiple {
   margin-bottom: 1rem;
   background-color: #333333;
@@ -1451,7 +1474,7 @@ a:active {
 }
 
 /*a*/
-/* line 20, ui/_post.scss */
+/* line 24, ui/_post.scss */
 .post__panel {
   color: inherit;
   display: block;
@@ -1459,12 +1482,12 @@ a:active {
   padding: 1rem;
   text-decoration: none;
 }
-/* line 26, ui/_post.scss */
+/* line 30, ui/_post.scss */
 .post__panel:hover, .post__panel:focus, .post__panel:active, .post__panel:visited {
   color: inherit;
 }
 
-/* line 37, ui/_post.scss */
+/* line 41, ui/_post.scss */
 .post__timestamp {
   background-color: #3d5883;
   font-size: 65%;
@@ -1480,12 +1503,12 @@ a:active {
 }
 
 @media (min-width: 56.25rem) {
-  /* line 52, ui/_post.scss */
+  /* line 56, ui/_post.scss */
   .post--multiple:hover {
     background-color: #444444;
   }
 }
-/* line 58, ui/_post.scss */
+/* line 62, ui/_post.scss */
 .post__comments {
   margin-top: 1rem;
 }
