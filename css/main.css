@@ -1483,3 +1483,7 @@ a:active {
     background-color: #444444;
   }
 }
+/* line 62, ui/_post.scss */
+.post__comments {
+  margin-top: 1rem;
+}
