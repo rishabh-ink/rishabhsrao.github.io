@@ -46,6 +46,8 @@
   background-color: $base-theme-color;
   font-size: $small-print-size;
 
+  @include border-radius(1px);
+
   position: absolute;
   top: 0;
   right: 0;
