@@ -549,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 578, ../lib/typeplate/scss/_typeplate.scss */
-.gamma, h3, .post__title {
+.gamma, h3 {
   font-size: 36px;
   font-size: 2rem;
   margin-bottom: 0.825rem;
@@ -1310,7 +1310,12 @@ img {
   margin: 1rem auto;
 }
 
-/* line 13, ui/_page.scss */
+/* line 14, ui/_page.scss */
+.thumbnails img {
+  display: inline-block;
+}
+
+/* line 19, ui/_page.scss */
 code {
   background-color: #222222;
   color: #de935f;
@@ -1322,9 +1327,14 @@ code {
   padding: .5rem;
 }
 
-/* line 20, ui/_page.scss */
+/* line 26, ui/_page.scss */
 hr {
   border: 2px solid #222222;
+}
+
+/* line 30, ui/_page.scss */
+.gist {
+  text-shadow: none;
 }
 
 /* line 1, ui/_banner.scss */
@@ -1449,7 +1459,7 @@ hr {
   margin-bottom: 0;
 }
 
-/* line 9, ui/_post.scss */
+/* line 5, ui/_post.scss */
 .post--single {
   background-color: #333333;
   padding: 1rem;
@@ -1461,7 +1471,7 @@ hr {
   position: relative;
 }
 
-/* line 16, ui/_post.scss */
+/* line 12, ui/_post.scss */
 .post--multiple {
   margin-bottom: 1rem;
   background-color: #333333;
@@ -1474,7 +1484,7 @@ hr {
 }
 
 /*a*/
-/* line 24, ui/_post.scss */
+/* line 20, ui/_post.scss */
 .post__panel {
   color: inherit;
   display: block;
@@ -1482,12 +1492,12 @@ hr {
   padding: 1rem;
   text-decoration: none;
 }
-/* line 30, ui/_post.scss */
+/* line 26, ui/_post.scss */
 .post__panel:hover, .post__panel:focus, .post__panel:active, .post__panel:visited {
   color: inherit;
 }
 
-/* line 41, ui/_post.scss */
+/* line 37, ui/_post.scss */
 .post__timestamp {
   background-color: #3d5883;
   font-size: 65%;
@@ -1503,12 +1513,12 @@ hr {
 }
 
 @media (min-width: 56.25rem) {
-  /* line 56, ui/_post.scss */
+  /* line 52, ui/_post.scss */
   .post--multiple:hover {
     background-color: #444444;
   }
 }
-/* line 62, ui/_post.scss */
+/* line 58, ui/_post.scss */
 .post__comments {
   margin-top: 1rem;
 }
