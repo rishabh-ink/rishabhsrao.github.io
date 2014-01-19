@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "normalize-css": "~2.1.3",
-    "typeplate": "~1.1.2"
+    "typeplate": "~1.1.2",
+    "tomorrow-pygments": "git@github.com:MozMorris/tomorrow-pygments.git"
   },
   "devDependencies": {}
 }
