@@ -34,10 +34,6 @@
   text-decoration: none;
 }
 
-.post__title {
-  @extend .delta;
-}
-
 .post__timestamp {
   background-color: $base-theme-color;
   font-size: $small-print-size;
