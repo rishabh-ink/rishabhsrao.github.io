@@ -1267,6 +1267,12 @@ body {
   text-shadow: 0 1px 2px #222222;
 }
 
+@media (max-width: 30rem) {
+  /* line 9, ui/_body.scss */
+  html {
+    font-size: 100%;
+  }
+}
 /* line 1, ui/_link.scss */
 a {
   color: #8bc4ea;
