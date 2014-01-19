@@ -2,10 +2,6 @@
   @extend %bare-list;
 }
 
-.post__title {
-  @extend .gamma;
-}
-
 .post--single {
   background-color: $post-bg-color;
   padding: $post-padding;
