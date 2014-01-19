@@ -19,14 +19,14 @@
 }
 
 .title__heading {
-  @extend .beta;
-
-  code {
-    opacity: .3;
-  }
+  @extend .gamma;
 }
 
-.title__object {
+.title__code {
+  opacity: .3;
+}
+
+.title--object {
   display: none;
 
   &::after {
@@ -35,13 +35,13 @@
 }
 
 @media (min-width: $screen-sm) {
-  .title__object__window {
+  .title--object--window {
     display: initial;
   }
 }
 
 @media (min-width: $screen-xs) {
-  .title__object__console {
+  .title--object--console {
     display: initial;
   }
 }
@@ -55,6 +55,7 @@
 
 .banner__sub_title {
   @extend .epsilon;
+  font-style: italic;
 }
 
 .menu__item {
