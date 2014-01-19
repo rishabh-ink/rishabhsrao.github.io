@@ -7,7 +7,7 @@ require "sass-css-importer"
 # ## Application configuration
 
 # The environment mode. Defaults to :production, can also be :development  (Symbol)
-environment = :development
+environment = :production
 
 # See http://stackoverflow.com/questions/13987010/compass-style-ruby-encoding-error
 encoding = "utf-8"
@@ -28,7 +28,7 @@ images_dir = 'img'
 javascripts_dir = 'js'
 
 # The output style for the compiled css. One of: :nested, :expanded, :compact, or :compressed.  (Symbol)
-output_style = :expanded
+output_style = :compressed
 
 # Indicates whether the compass helper functions should generate relative urls from the generated css to assets, or absolute urls using the http path for that asset type.  (Boolean)
 relative_assets = true
