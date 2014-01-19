@@ -2,9 +2,9 @@
 layout: post
 title: "Chiguru 2012"
 date: 2013-02-07 22:55
-description: "Youth for Seva - Chiguru 2012 event page"
+excerpt: "Youth for Seva &mdash; Chiguru 2012 event page"
 comments: true
-categories: non-technical
+categories: notech
 ---
 
 A few months ago, I created an event page for [Youth for Seva](http://youthforseva.org)'s annual event - Chiguru 2012.

@@ -3,7 +3,8 @@ layout: post
 title: "jQuery.beeTooltip"
 date: 2013-02-24 21:56
 comments: true
-categories:
+categories: tech
+excerpt: "My first jQuery plugin &mdash; a simple tooltip."
 ---
 
 A few days ago, I created my first jQuery plugin! It's a simple tooltip plugin.

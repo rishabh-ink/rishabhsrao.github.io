@@ -2,25 +2,18 @@
 comments: true
 date: 2012-09-19 19:44:17
 layout: post
-slug: mounting-an-iso-image
-title: Mounting an ISO image
-wordpress_id: 287
-categories:
-- Technical
-- Tips &amp; Tricks
-tags:
-- iso
-- ISO image
-- linux
-- mount
-- shell
+title: "Mounting an ISO image"
+categories: tech
+excerpt: "A quick tip on how to mount ISO image files in GNU/Linux."
 ---
 
 Mounting an ISO image as a drive is simple:
 
-    
-    mkdir <strong><path-to-where-you-want-to-mount></strong>
-    sudo mount -o loop <strong><your-image.iso></strong> <strong><path-to-where-you-want-to-mount></strong>
+{% highlight sh %}
 
+    mkdir path/to/where/you/want/to/mount
+    sudo mount -o loop your-image.iso path/to/where/you/want/to/mount
 
-That's it! Your ISO image will now be mounted and available at the above path.
+{% endhighlight %}
+
+That&rsquo;s it! Your ISO image will now be mounted and available at the above path.

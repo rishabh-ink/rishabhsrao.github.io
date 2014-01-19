@@ -3,7 +3,7 @@ comments: true
 date: 2010-01-10 17:42:00
 layout: post
 title: "JavaFX: A tutorial"
-excerpt: ""
+excerpt: "An absolute beginners tutorial."
 categories: tech
 ---
 
