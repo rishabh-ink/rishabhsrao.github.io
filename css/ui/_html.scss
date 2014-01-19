@@ -2,8 +2,12 @@
   @include box-sizing(border-box);
 }
 
-@media (max-width: $screen-xs) {
+html {
+  font-size: 100%;
+}
+
+@media (min-width: $screen-md) {
   html {
-    font-size: 100%;
+    font-size: $font-size;
   }
 }
