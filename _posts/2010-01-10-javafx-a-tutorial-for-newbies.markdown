@@ -2,18 +2,14 @@
 comments: true
 date: 2010-01-10 17:42:00
 layout: post
-slug: javafx-a-tutorial-for-newbies
 title: 'JavaFX: A Tutorial for Newbies!'
-wordpress_id: 30
-categories:
-- Tutorial
+categories: tech
 ---
 
 After learning JavaFX for a few days, I decided to create my first JavaFX application! It's called Open-Source Jumble and I'm happy to say that it's up to the coveted version 1.0.0 now! Here is a screen shot of my application:
 
-
 [![](http://rishabhsrao.files.wordpress.com/2010/01/jumble_app_snapshot1.jpeg?w=175)](http://rishabhsrao.files.wordpress.com/2010/01/jumble_app_snapshot1.jpeg)
-For all you curious readers out there, the font used for the title is [Letras Locas](http://www.kde-look.org/content/show.php/Letras+Locas?content=116231) available at [KDE-Look.org](http://www.kde-look.org/) and for all you curious folks reading this, I'm running [openSUSE](http://www.opensuse.org/) 11.2 ([KDE](http://www.kde.org/)) with the [Aurorae theme engine](http://www.kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158)! The window decoration theme is [Kant2](http://www.kde-look.org/content/show.php/Kant2+Aurorae?content=115339). 
+For all you curious readers out there, the font used for the title is [Letras Locas](http://www.kde-look.org/content/show.php/Letras+Locas?content=116231) available at [KDE-Look.org](http://www.kde-look.org/) and for all you curious folks reading this, I'm running [openSUSE](http://www.opensuse.org/) 11.2 ([KDE](http://www.kde.org/)) with the [Aurorae theme engine](http://www.kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158)! The window decoration theme is [Kant2](http://www.kde-look.org/content/show.php/Kant2+Aurorae?content=115339).
 
 Read more about this application in my other blog at [http://osum.sun.com/profiles/blogs/jumble-javafx-style](http://osum.sun.com/profiles/blogs/jumble-javafx-style)!
 
