@@ -10,6 +10,12 @@ img {
   margin: 1rem auto;
 }
 
+.thumbnails {
+  img {
+    display: inline-block;
+  }
+}
+
 code {
   background-color: $base-bg-color;
   color: #de935f;
@@ -19,4 +25,8 @@ code {
 
 hr {
   border: 2px solid $base-bg-color;
+}
+
+.gist {
+  text-shadow: none;
 }
