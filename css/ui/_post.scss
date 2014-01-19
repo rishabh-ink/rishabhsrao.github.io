@@ -2,13 +2,23 @@
   @extend %bare-list;
 }
 
-.posts__post {
+.post--single {
+  background-color: $post-bg-color;
+  padding: $post-padding;
+  @include border-radius(1px);
+  position: relative;
+}
+
+.post--multiple {
   margin-bottom: 1rem;
   background-color: $post-bg-color;
+  @include border-radius(1px);
 
   &:hover {
     background-color: $post-bg-hover-color;
   }
+
+  position: relative;
 }
 
 /*a*/.post__panel {
@@ -29,5 +39,15 @@
 }
 
 .post__title {
-  @extend .gamma;
+  @extend .delta;
+}
+
+.post__timestamp {
+  background-color: $base-theme-color;
+  font-size: $small-print-size;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .25rem;
 }
