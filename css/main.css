@@ -1270,7 +1270,7 @@ body {
 @media (max-width: 30rem) {
   /* line 9, ui/_body.scss */
   html {
-    font-size: 100%;
+    font-size: 62.5%;
   }
 }
 /* line 1, ui/_link.scss */
