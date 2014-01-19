@@ -37,9 +37,9 @@ $post-bg-hover-color: #444;
 /*
  * Link colors
  */
-$link-color: #3498db;
-$link-hover-color: lighten($link-color, 15%);
-$link-active-color: lighten($link-color, 20%);
+$link-color: lighten(#3498db, 20%);
+$link-hover-color: darken($link-color, 5%);
+$link-active-color: lighten($link-color, 10%);
 
 
 
