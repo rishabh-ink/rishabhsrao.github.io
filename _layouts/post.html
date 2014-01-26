@@ -5,7 +5,7 @@ layout: default
 <div class="page  page__post">
   <div class="post--single">
     <h2 class="post__title">{{ page.title }}</h2>
-    <p class="post__timestamp">{{ page.date | date: "%-d %B, %Y" }}</p>
+    <time class="post__timestamp" datetime="{{ page.date }}">{{ page.date | date: "%-d %B, %Y" }}</time>
 
     <div class="post__content">
       {{ content }}

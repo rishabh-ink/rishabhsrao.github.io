@@ -12,7 +12,7 @@ excerpt: Hi there! I&rsquo;m Rishabh, a web front-end engineer from Bangalore (I
         <a class="post__panel" href="{{ post.url }}">
           <h3 class="post__title">{{ post.title }}</h3>
 
-          <span class="post__timestamp">{{ post.date | date: "%-d %B, %Y" }}</span>
+          <time class="post__timestamp" datetime="{{ post.date }}">{{ post.date | date: "%-d %B, %Y" }}</time>
 
           <p class="post__excerpt">
             {{ post.excerpt }}
