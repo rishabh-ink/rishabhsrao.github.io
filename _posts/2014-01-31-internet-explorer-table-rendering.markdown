@@ -8,7 +8,7 @@ tags: [ie, table, missing, border, borders, empty, cell]
 excerpt: Tables render with missing borders on empty cells.
 ---
 
-The other day I came across a strange issue in Internet Explorer. Empty cells in a `<table>` were being rendered with missing borders. As you can see in the screenshot below, the empty cells have missing borders&hellip;
+The other day I came across a strange issue in Internet Explorer. Empty cells in a `<table>` element were being rendered with missing borders. As you can see in the screenshot below, the empty cells have missing borders&hellip;
 
 ![](/img/posts/2014-01-31-internet-explorer-table-rendering/table-rendering-bug.PNG)
 
