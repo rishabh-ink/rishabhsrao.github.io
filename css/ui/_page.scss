@@ -47,3 +47,32 @@ blockquote {
     left: -1.5rem;
   }
 }
+
+/*ul*/.page__tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page__tag {
+  background-color: $base-theme-color;
+  @include border-radius(1px);
+  display: inline-block;
+  font-size: $small-print-size;
+  font-style: italic;
+  margin: 0 .25rem;
+  padding: 0 .5rem 0 1rem;
+  position: relative;
+
+  &::before {
+    background-color: $post-bg-color;
+    content: "";
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    @include border-radius(.2rem);
+    top: .35rem;
+    left: .2rem;
+  }
+}
