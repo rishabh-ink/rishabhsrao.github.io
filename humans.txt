@@ -3,7 +3,7 @@
 
 # TEAM
 
-    Rishabh Rao [@rishabhsrao](https://twitter.com/jekyllrb)
+    Rishabh Rao [@rishabhsrao](https://twitter.com/rishabhsrao)
 
 # THANKS
 
