@@ -8,5 +8,3 @@ categories: tech
 ---
 
 PrimeFaces is an amazing JSF component library. Check it out at [PrimeFaces](http://www.primefaces.org).
-
----

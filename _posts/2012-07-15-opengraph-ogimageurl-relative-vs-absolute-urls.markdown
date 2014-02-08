@@ -13,5 +13,3 @@ The [Facebook Like Linter Tool](http://developers.facebook.com/tools/lint) said
 
 
 > **Object Invalid Value**: Object at URL 'http://rishabhsrao.github.com/yfs-ad-2012/publish/index.html' of type <code>profile</code> is invalid because the given value <code>img/yfs-logo-only-120.png</code> for property <code>og:image:url</code> could not be parsed as type <code>url</code>.
-
----

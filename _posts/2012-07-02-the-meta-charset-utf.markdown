@@ -28,5 +28,3 @@ Here's an example of an attack on Google: [Google's XSS Vulnerability](http://sh
 [Paul Irish](http://paulirish.com) talks about this in his [The Fundamentals, Primitives and History of HTML5](http://paulirish.com/2011/primitives-html5-video) video.
 
 Also, according to the Mozilla docs, it's important to place the charset declaration within the first 512 bytes of your HTML file as some browsers only look at these first bytes before choosing a character set for the page.
-
----

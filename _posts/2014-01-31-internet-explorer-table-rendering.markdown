@@ -38,5 +38,3 @@ An alternate solution is to add these two attributes&hellip;
 In addition to the above solutions, removing the void between two `<td>` elements might also help. You can find a clean workaround by Harry Roberts ([CSSWizardy.com](http://csswizardry.com)) where he suggests to use [empty HTML comments](https://github.com/csswizardry/csswizardry-grids/wiki#classes-in-markup) to fill the void.
 
 Hopefully, this should help resolve the issue.
-
----

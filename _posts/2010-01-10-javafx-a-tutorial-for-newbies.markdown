@@ -69,5 +69,3 @@ You can change the window title by changing the title of your Stage object liter
 There you have it, your first, simple "Hello World" JavaFX application!
 
 I'll write more tutorials about JavaFX in the coming future! So, follow my blog for more!
-
----

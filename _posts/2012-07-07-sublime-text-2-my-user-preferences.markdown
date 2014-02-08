@@ -27,5 +27,3 @@ Here are my [Sublime Text 2](http://www.sublimetext.com) user preferences:
 {% endhighlight %}
 
 Note that I've installed the [Aqua theme](https://github.com/cafarm/aqua-theme) for Sublime Text 2 (originally known as [Soda Refined](https://github.com/danro/refined-theme)).
-
----

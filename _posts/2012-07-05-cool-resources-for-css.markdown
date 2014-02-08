@@ -22,5 +22,3 @@ If you're into CSS grids, then this lightweight grid will definitely appeal to y
 Well, that's about it for now. I'll add more stuff as I find out.
 
 Thanks for reading and hope this helps!
-
----

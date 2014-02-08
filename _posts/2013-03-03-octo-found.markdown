@@ -16,5 +16,3 @@ I started out by importing my [Wordpress](http://rishabhsrao.wordpress.com) blog
 Anyway, the Classic theme is quite boring. So the first place you'd go to is the [3rd party plugins](https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes) wiki page. There are a couple of great themes available. There&rsquo;re a bunch of themes based on Bootstrap. I thought of creating my own theme to create a unique experience for my blog. So I started out with [Octo-Found](https://github.com/rishabhsrao/octo-found). It's based on [Zurb Foundation](http://foundation.zurb.com). I've also added [Font Awesome](http://fortawesome.github.com/Font-Awesome).
 
 It's not yet complete, but has got quite some stuff up and running already. I'm yet to implement an [off canvas layout](http://www.zurb.com/playground/off-canvas-layouts) for the sidebar. Thus, the responsive design breaks for tables and below. Well, that's it for now. I'll post again once I complete the theme!
-
----

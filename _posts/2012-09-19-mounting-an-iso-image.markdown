@@ -17,5 +17,3 @@ Mounting an ISO image as a drive is simple:
 {% endhighlight %}
 
 That&rsquo;s it! Your ISO image will now be mounted and available at the above path.
-
----

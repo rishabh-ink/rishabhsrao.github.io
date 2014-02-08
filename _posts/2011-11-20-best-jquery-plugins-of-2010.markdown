@@ -10,5 +10,3 @@ categories: tech
 Found some good jQuery plugins here&hellip;
 
 [Best jQuery Plugins of 2010](http://webdesignledger.com/resources/best-jquery-plugins-of-2010)
-
----

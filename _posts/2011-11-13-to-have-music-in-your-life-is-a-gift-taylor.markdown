@@ -11,5 +11,3 @@ categories: notech
 
 > "&hellip; to have music in your life is a gift!"
 > &mdash; [Taylor Swift](http://www.taylorswift.com)
-
----

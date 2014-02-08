@@ -43,5 +43,3 @@ Here are some screenshots of the application:
   ![](/img/posts/2013-03-10-weather-fox/8.png)
   ![](/img/posts/2013-03-10-weather-fox/9.jpg)
   ![](/img/posts/2013-03-10-weather-fox/10.jpg)
-
----

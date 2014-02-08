@@ -23,5 +23,3 @@ and delete the following four files:
 * <code>PrivateEncryptedDatav</code>
 
 Now restart CrunchApp and happy crunching!
-
----

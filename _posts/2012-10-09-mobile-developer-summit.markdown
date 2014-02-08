@@ -22,5 +22,3 @@ After the talks, I met Scott Davis and showed him the apps that I created. We ta
 The next session is on HTML5 video by Scott Davis. I'm really excited to attend it!
 
 So that's it for day one of the Mobile Developer Summit organized by saltmarch media. I'm off to grab the front row seat for Scott's talk! I'll leave you with some pictures of the event.
-
----

@@ -10,5 +10,3 @@ categories: notech
 A few months ago, I created an event page for [Youth for Seva](http://youthforseva.org)'s annual event - Chiguru 2012.
 It's hosted on their site at: [youthforseva.org/chiguru-2012](http://youthforseva.org/chiguru-2012) and also on [Github pages](http://rishabhsrao.github.com/yfs-chiguru-2012).
 The source code is in my [Github repo](https://github.com/rishabhsrao/yfs-chiguru-2012).
-
----
