@@ -7,7 +7,7 @@ categories: tech
 tags: [css3, media, queries, standard, device, rem]
 excerpt: <code>em</code>-based media query values for standard devices.
 ---
-I've converted [Twitter Bootstrap](http://getbootstrap.com)'s [media query values](http://getbootstrap.com/css/#grid-media-queries) to `em`s.
+I've converted [Twitter Bootstrap](http://getbootstrap.com)'s [media query values](http://getbootstrap.com/css/#grid-media-queries) to `em`s. Assuming the base font size is `16px`&hellip;
 
 {% highlight scss %}
 
@@ -19,8 +19,6 @@ $screen-md-min: 62em;
 
 /* Large devices (large desktops, 1200px and up) */
 $screen-lg-min: 75em;
-
-/* Assuming that the base font size is `16px`. */
 
 {% endhighlight %}
 
