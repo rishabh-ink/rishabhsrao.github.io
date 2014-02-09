@@ -26,7 +26,7 @@ $screen-lg-min: 75em;
 
 Some great resources for further reading&hellip;
 
-* [a great list of common CSS @media query breakpoints](http://www.miniarray.com/post/51474660456/a-great-list-of-common-css-media-query-breakpoints) by [{miniArray}](http://www.miniarray.com)
+* [A great list of common CSS @media query breakpoints](http://www.miniarray.com/post/51474660456/a-great-list-of-common-css-media-query-breakpoints) by [{miniArray}](http://www.miniarray.com)
 * [7 Habits of Highly Effective Media Queries](http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries) by [Brad Frost](http://bradfrostweb.com)
 
 As a closing quote,
