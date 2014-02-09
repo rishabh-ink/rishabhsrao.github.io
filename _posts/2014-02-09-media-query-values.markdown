@@ -5,27 +5,28 @@ date: 2014-02-09 23:01:59
 comments: true
 categories: tech
 tags: [css3, media, queries, standard, device, rem]
-excerpt: <code>rem</code>-based media query values for standard devices.
+excerpt: <code>em</code>-based media query values for standard devices.
 ---
-Figuring out media query values for standard devices can be confusing with so many device screens. This post is to document the values that I usually use. What I've done here is that I've taken Twitter Bootstrap's media query values as a reference point. Here, I am assuming that the base font size is `16px`.
+I've converted [Twitter Bootstrap](http://getbootstrap.com)'s [media query values](http://getbootstrap.com/css/#grid-media-queries) to `em`s.
 
 {% highlight scss %}
 
-// Mobile devices - Landscape (480px wide or 30rem wide)
-$screen-xs: 30rem;
+/* Small devices (tablets, 768px and up) */
+$screen-sm-min: 48em;
 
-// Tablet devices - Portrait (768px wide or 48rem wide)
-$screen-sm: 48rem;
+/* Medium devices (desktops, 992px and up) */
+$screen-md-min: 62em;
 
-// Tablet devices - Landscape (900px wide or 56.25rem wide)
-$screen-md: 56.25rem;
+/* Large devices (large desktops, 1200px and up) */
+$screen-lg-min: 75em;
 
-// Desktop devices (1200px wide or 81.25rem wide)
-$screen-lg: 81.25rem;
+/* Assuming that the base font size is `16px`. */
 
 {% endhighlight %}
+
+[{miniArray}](http://www.miniarray.com) has [a great list of common CSS @media query breakpoints](http://www.miniarray.com/post/51474660456/a-great-list-of-common-css-media-query-breakpoints). (Brad Frost)[http://bradfrostweb.com] has a great article on (7 Habits of Highly Effective Media Queries)[http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries].
 
 As a closing quote,
 
 > the absence of support for @media queries is in fact the ﬁrst @media query...
-> &mdash; [Bryan Rieger](https://twitter.com/bryanrieger)
+> &mdash; [Rethinking the Mobile Web by Yiibu, Slide 85](http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/85), [Bryan Rieger](https://twitter.com/bryanrieger)
