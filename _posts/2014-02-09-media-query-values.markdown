@@ -24,7 +24,7 @@ $screen-lg-min: 75em;
 
 {% endhighlight %}
 
-[{miniArray}](http://www.miniarray.com) has [a great list of common CSS @media query breakpoints](http://www.miniarray.com/post/51474660456/a-great-list-of-common-css-media-query-breakpoints). (Brad Frost)[http://bradfrostweb.com] has a great article on (7 Habits of Highly Effective Media Queries)[http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries].
+[{miniArray}](http://www.miniarray.com) has [a great list of common CSS @media query breakpoints](http://www.miniarray.com/post/51474660456/a-great-list-of-common-css-media-query-breakpoints). [Brad Frost](http://bradfrostweb.com) has a great article on [7 Habits of Highly Effective Media Queries](http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries).
 
 As a closing quote,
 
