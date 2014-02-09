@@ -24,9 +24,12 @@ $screen-lg-min: 75em;
 
 {% endhighlight %}
 
-[{miniArray}](http://www.miniarray.com) has [a great list of common CSS @media query breakpoints](http://www.miniarray.com/post/51474660456/a-great-list-of-common-css-media-query-breakpoints). [Brad Frost](http://bradfrostweb.com) has a great article on [7 Habits of Highly Effective Media Queries](http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries).
+Some great resources for further reading&hellip;
+
+* [a great list of common CSS @media query breakpoints](http://www.miniarray.com/post/51474660456/a-great-list-of-common-css-media-query-breakpoints) by [{miniArray}](http://www.miniarray.com)
+* [7 Habits of Highly Effective Media Queries](http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries) by [Brad Frost](http://bradfrostweb.com)
 
 As a closing quote,
 
 > the absence of support for @media queries is in fact the ﬁrst @media query...
-> &mdash; [Rethinking the Mobile Web by Yiibu, Slide 85](http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/85), [Bryan Rieger](https://twitter.com/bryanrieger)
+> &mdash; [Rethinking the Mobile Web by Yiibu (Slide 85)](http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu/85), [Bryan Rieger](https://twitter.com/bryanrieger)
