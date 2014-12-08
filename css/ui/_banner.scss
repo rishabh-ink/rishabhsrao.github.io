@@ -57,12 +57,6 @@
   font-style: italic;
 }
 
-.menu__item {
-  display: inline;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .profile__picture {
   background-image: url("../apple-touch-icon-precomposed.png");
   background-repeat: no-repeat;
@@ -78,6 +72,12 @@
 
 /*ul*/.social__menu {
   @extend %bare-list;
+}
+
+.social__menu__item {
+  display: inline;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .social__menu__item a {
